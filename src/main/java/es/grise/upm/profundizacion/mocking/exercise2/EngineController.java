@@ -2,6 +2,7 @@ package es.grise.upm.profundizacion.mocking.exercise2;
 
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
+import java.util.TimeZone;
 
 
 /* *********************************************************************************
@@ -11,6 +12,8 @@ import java.text.SimpleDateFormat;
 public class EngineController {
 
 	private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+
 	private Logger logger;
 	private Speedometer speedometer;
 	private Gearbox gearbox;
